@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Equipment - Automos</title>
+    <!-- Bootstrap CSS (Load First) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+
+    <section>
+        <h1>Equipment for Sale</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="motor.jpg" alt="Motor">
+                <h3>DC Motor</h3>
+                <p>Price: 500 BDT</p>
+                <button onclick="addToCart('DC Motor', 500)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="sensor.jpg" alt="Sensor">
+                <h3>IR Sensor</h3>
+                <p>Price: 300 BDT</p>
+                <button onclick="addToCart('IR Sensor', 300)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="battery.jpg" alt="Battery">
+                <h3>Lithium Battery</h3>
+                <p>Price: 1200 BDT</p>
+                <button onclick="addToCart('Lithium Battery', 1200)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
